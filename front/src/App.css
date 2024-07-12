@@ -191,7 +191,11 @@
 .pagination-controls {
    display: flex;
    justify-content: center;
-   margin-top: 20px;
+   position: absolute;
+   bottom: 100px;
+   left: 50%;
+   transform: translateX(-50%);
+   justify-content: center;
 }
 
 /* 문의 목록 버튼 */
@@ -345,3 +349,71 @@ margin: 0 30px;
 
 
 /************************************************/
+
+
+/*************member>page>MemberHeader.js********/
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+/* 관리자 페이지 링크 버튼*/
+.memberheader-admin-link {
+    margin: 20px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: #21E6C1;
+    color: white;
+    font-weight: bold;
+}
+
+/* 로그인(내 정보 보기), 로그아웃 버튼 위치 */
+.auth-buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* 로그인(내 정보 보기), 로그아웃 버튼 스타일 */
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 15px;
+    gap: 10px;
+}
+
+/* 판매하기 버튼 */
+.sell-button-container {
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+
+
+
+
+/************************************************/
+
