@@ -415,5 +415,47 @@ margin: 0 30px;
 
 
 
-/************************************************/
+/***************************************************************/
+
+
+/**********product>component>PproductSearchForm.js**************/
+
+/* 검색창 위치 */
+.psearchform-search {
+  display: flex;
+  justify-content: center;
+  background-color: #F8F9FA;
+}
+
+.psearchform-search-input {
+	flex: 1;
+	max-width: 600px;
+}
+
+.psearchform-option {
+	max-width: 30%;
+	height: 45px;
+}
+
+.input-group .psearchform-input.form-control {
+    font-size: 16px;
+    min-width: 300px;
+}
+
+
+/******************************************************/
+
+
+
+
+
+
+
+
+
+/***************************************************************/
+
+
+
+
 

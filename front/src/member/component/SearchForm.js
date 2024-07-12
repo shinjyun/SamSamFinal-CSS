@@ -72,7 +72,7 @@ function SearchForm(){
         <div>
             <Form onSubmit={handleSubmit}>
                 
-                <InputGroup className="mb-3">
+                <InputGroup>
 
                     <Form.Select aria-label="Default select example" onChange={handleChange} name="searchFilter">
                         <option>검색옵션</option>
