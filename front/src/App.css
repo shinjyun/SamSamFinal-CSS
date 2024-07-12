@@ -432,6 +432,17 @@ margin: 0 30px;
 	max-width: 600px;
 }
 
+.input-group .psearchform-option {
+	background-color: rgba(255, 255, 255, 0);
+	border: 1px solid #6C757D;
+	color: black;
+	font-weight: bold;
+}
+
+.input-group .psearchform-option::after {
+	color: white;
+}
+
 .psearchform-option {
 	max-width: 30%;
 	height: 45px;
@@ -440,8 +451,13 @@ margin: 0 30px;
 .input-group .psearchform-input.form-control {
     font-size: 16px;
     min-width: 300px;
+    border: 1px solid #6C757D;
 }
 
+.input-group #button-addon2 {
+	font-weight: bold;
+	color: black;
+}
 
 /******************************************************/
 
