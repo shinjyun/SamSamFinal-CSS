@@ -551,6 +551,7 @@ margin: 0 30px;
 /* 페이징 위치 */
 .ppagingtest-paging {
 	justify-content: center;
+	margin-bottom: 50px;
 }
 
 
@@ -574,6 +575,34 @@ margin: 0 30px;
     margin: 0 auto; /* 카드를 가운데 정렬 */
 }
 
-/******************************************************/
+/******************RootPage.js*************************/
+
+/* 공지사항, 고객문의 link 설정 */
+.rootpage-infocs {
+	display: flex;
+	justify-content: center;
+	padding: 60px;
+	gap: 40px;
+	background-color: #f8f9fa;
+}
+
+.rootpage-info, .rootpage-cs {
+	color: #7b7b7b;
+	text-decoration : none;
+	font-weight: bold;
+	font-size: 16px;
+	position: relative;
+}
+
+.rootpage-info::after {
+    content: '';
+    position: absolute;
+    top: 50%; /* 링크의 중앙에서 선을 수직으로 정렬 */
+    transform: translateY(-50%);
+    height: 100%; /* 선의 세로 길이를 링크의 높이에 맞추기 */
+    width: 1px; /* 선의 두께 */
+    background-color: #3b3b3b; /* 선의 색상 */
+    right: -20px; /* 링크 오른쪽에 위치하도록 조정 */
+}
 
 

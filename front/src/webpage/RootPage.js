@@ -122,12 +122,13 @@ function Root({handleStorageChange, memberId}){
             {/* 상품 페이징 컴포넌트 */}
             <PpagingTest totalPage={totalPage} setProductList={handleProductList} currentPage={currentPage} findData={findData} category={category}/>
 
+			<div className="rootpage-infocs">
             {/* 공지사항 조회 링크 */}
-            <Link to={"/info"}>공지사항</Link>
+            <Link to={"/info"} className="rootpage-info">공지사항</Link>
 
             {/* 고객문의 조회 링크 */}
-            <Link to={"/cs"} >고객문의</Link>
-
+            <Link to={"/cs"} className="rootpage-cs">고객문의</Link>
+			</div>
         </div>
 
     )
