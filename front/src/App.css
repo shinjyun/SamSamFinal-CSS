@@ -528,6 +528,9 @@ margin: 0 30px;
 	border-bottom: none;
 }
 
+
+/**************chat>component>ChatListButton.js**********************/
+
 /* 채팅 목록 */
 .chatlistbutton-chat {
     display: flex; /* Flexbox 레이아웃 적용 */
@@ -541,3 +544,36 @@ margin: 0 30px;
 
 
 /******************************************************/
+
+
+/************product>component>PpagingTest.js*********************/
+
+/* 페이징 위치 */
+.ppagingtest-paging {
+	justify-content: center;
+}
+
+
+
+/***************product>component>ProductTable.js, ProductItem.js*******************/
+
+.producttable-table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 80%; /* 원하는 너비로 설정 */
+}
+
+.producttable-tbody {
+    text-align: center; /* 가운데 정렬 */
+    border-spacing: 10px; /* 셀 사이의 간격 */
+}
+
+.productitem-card {
+    max-width: 12rem;
+    margin: 0 auto; /* 카드를 가운데 정렬 */
+}
+
+/******************************************************/
+
+

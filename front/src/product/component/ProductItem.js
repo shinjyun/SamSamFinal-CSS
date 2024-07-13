@@ -25,11 +25,11 @@ function ProductItem({productNumber}) {
 
 
     return (
-        <Link style={{textDecoration: 'none'}} to={`/products/${productNumber}`}>
-            <Card style={{ width: '14rem' }}>
+        <Link className='productitem-link' style={{textDecoration: 'none'}} to={`/products/${productNumber}`}>
+            <Card className='productitem-card' style={{ maxWidth: '12rem' }}>
                 <Card.Img variant="top" src={`/img/${imgData[0]?.imgUrl}` || 'placeholder.jpg'} 
                     style={{
-                        width: '14rem',
+                        maxWidth: '12rem',
                         height: 'auto'
                     }}
                 />
