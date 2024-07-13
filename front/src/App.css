@@ -551,7 +551,7 @@ margin: 0 30px;
 /* 페이징 위치 */
 .ppagingtest-paging {
 	justify-content: center;
-	margin-bottom: 50px;
+	margin-bottom: 200px;
 }
 
 
@@ -579,11 +579,17 @@ margin: 0 30px;
 
 /* 공지사항, 고객문의 link 설정 */
 .rootpage-infocs {
+	position: fixed; /* 화면에 고정 */
+    bottom: 0; /* 화면의 하단에서 20px 떨어진 위치에 배치 */
+    left: 50%; /* 화면 가운데 정렬을 위해 왼쪽에서 절반만큼 이동 */
+    transform: translateX(-50%);
 	display: flex;
 	justify-content: center;
-	padding: 60px;
+	padding: 30px;
 	gap: 40px;
 	background-color: #f8f9fa;
+	z-index: 999;
+	transition: margin-top 0.3s ease; 
 }
 
 .rootpage-info, .rootpage-cs {
