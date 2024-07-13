@@ -111,6 +111,10 @@ function Root({handleStorageChange, memberId}){
 
             </Tabs>
 
+             {/* 채팅방 조회 */}
+            <ChatListButton 
+            handleStorageChange={handleStorageChange} 
+                memberId={memberId} />
 
             {/* 상품 전체 조회 테이블 컴포넌트 */}
             <ProductTable productList={productList}/>
@@ -124,10 +128,6 @@ function Root({handleStorageChange, memberId}){
             {/* 고객문의 조회 링크 */}
             <Link to={"/cs"} >고객문의</Link>
 
-             {/* 채팅방 조회 */}
-            <ChatListButton 
-            handleStorageChange={handleStorageChange} 
-                memberId={memberId} />
         </div>
 
     )

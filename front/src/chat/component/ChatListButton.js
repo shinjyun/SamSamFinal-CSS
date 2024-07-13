@@ -28,9 +28,9 @@ function ChatListButton({memberId, handleStorageChange, productData}){
     };
 
     return(
-        <div style={{ display: 'inline' }}>
-            <Button variant="outline-primary" onClick={handleChatRoom}>
-                채팅방 목록
+        <div  className="chatlistbutton-chat">
+            <Button  className="chatlistbutton-select" variant="outline-primary" onClick={handleChatRoom}>
+                채팅 목록
             </Button>
             <LoginModal show={show} setShow={setShow} handleStorageChange={handleStorageChange} />
         </div>
